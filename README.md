@@ -49,7 +49,7 @@ Dataset yang digunakan adalah dataset yang diambil dari kaggle, dimana isi dari 
 [Body Fat Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset/data). 
 
 ### Variabel-variabel pada Body Fat Prediction Dataset adalah sebagai berikut:
-- Density :
+- Density : merupakan kepadatan tubuh dalam penimbangan dibawah air.
 - Age : merupakan umur dalam satuan tahun.
 - Weight : merupakan berat badan dalam satuan pon.
 - Height : merupakan tinggi badan dalam satuan inchi.
