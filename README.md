@@ -1,11 +1,10 @@
 # Laporan Proyek Machine Learning
-### Nama :
-### Nim :
-### Kelas :
+### Nama : Khilda Fitria Nurultsani
+### Nim : 211351070
+### Kelas : Teknik Informatika Pagi B
 
 ## Domain Proyek
-
-Pada bagian ini, kamu perlu menuliskan latar belakang yang relevan dengan proyek yang diangkat.
+Proyek yang saya angkat kali ini adalah perhitungan lemak tubuh yang diambil dari 14 parameter yang telah ditentukan
 
 **Rubrik/Kriteria Tambahan (Opsional)**:
 - Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
@@ -22,9 +21,20 @@ Bagian laporan ini mencakup:
 ### Problem Statements
 
 Menjelaskan pernyataan masalah latar belakang:
-- Pernyataan Masalah 1
-- Pernyataan Masalah 2
-- Pernyataan Masalah n
+- Kepadatan
+- Usia
+- Berat Badan
+- Tinggi Badan
+- Ukuran Lingkar Leher
+- Ukuran Lingkar Dada
+- Ukuran Lingkar Perut
+- Ukuran Lingkar Panggul
+- Ukuran Lingkar Paha
+- Ukuran Lingkar Lutut
+- Ukuran Lingkar Pergelangan Kaki
+- Ukuran Lingkar Lengan Atas
+- Ukuran Lingkar Lengan Bawah
+- Ukuran Lingkar Pergelangan Tangan
 
 ### Goals
 
@@ -43,7 +53,7 @@ Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pe
     - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
 
 ## Data Understanding
-Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. dataset wajib menggunakan [kaggle](https://www.kaggle.com/) dan **atribut yang digunakan minimal 8 atribut**. Sertakan juga sumber atau tautan untuk mengunduh dataset.<br> 
+Proyek yang saya buat ini datanya diambil dari dataset kaggle
 
 Contoh: [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction).
 
