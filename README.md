@@ -68,6 +68,16 @@ Dataset yang digunakan adalah dataset yang diambil dari kaggle, dimana isi dari 
 ## Data Preparation
 Data berdasarkan kaggle
 
+Pertama import dulu library yang di butuh dengan memasukan perintah :
+```bash
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+```
+
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Menjelaskan proses data preparation yang dilakukan
 - Menjelaskan alasan mengapa diperlukan tahapan data preparation tersebut.
