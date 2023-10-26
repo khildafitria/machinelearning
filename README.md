@@ -115,27 +115,71 @@ dari dataset bodyfat.csv dengan memasukan perintah :
 df.head()
 ```
 
-Jika ingin menampilkan jumlah data dan kolom yang ada di dataset dengan perintah :
+Jika ingin menampilkan jumlah data dan kolom yang ada di dataset, masukan perintah :
 ```bash
 df.shape
 ```
 
-Lalu kita cek tipe data dari masing-masing atribut/fitur dari dataset dari bodyfat.csv
+Lalu kita cek tipe data dari masing-masing atribut/fitur dari dataset dari bodyfat.csv , masukan perintah :
 ```bash
 df.info()
 ```
 
-Untuk menampilkan detail informasi dari dataset 
+Untuk menampilkan detail informasi dari dataset, masukan perintah :
 ```bash
 df.describe()
 ```
 
+Jika ingin mengecek heatmap dari data kita ada yang kosong atau tidak, masukan perintah :
+```bash
+sns.heatmap(df.isnull())
+```
 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan proses data preparation yang dilakukan
-- Menjelaskan alasan mengapa diperlukan tahapan data preparation tersebut.
+#Visualisasi Data
+visualisasi heatmap untuk melihat sebaran data pada dataset bodyfat.csv , masukan perintah :
+```bash
+plt.figure(figsize=(10,8))
+sns.heatmap(df.corr(), annot=True)
+```
+
+
+
 
 ## Modeling
+Untuk melakukan modeling saya memakai algoritma regresi linear, dimana kita harus memisahkan mana saja atribut yang akan dijadikan sebagai fitur(x) dan atribut mana yang dijadikan label(y).
+```bash
+features = ['Density', 'Age', 'Weight', 'Height', 'Neck', 'Chest','Abdomen', 'Hip', 'Thigh', 'Knee', 'Ankle', 'Biceps', 'Forearm','Wrist']
+x = df[features]
+y = df['BodyFat']
+x.shape, y.shape
+```
+Pada perintah tersebut kita gunakan Density, Age, Weight, Height, Neck, Chest, Abdomen, Hip, Thigh, Knee, Ankle, Biceps, Forearm, dan Wrist sebagai fitur inputan(x). Sedangkan BodyFat dijadikan sebagai label(y), karena BodyFat merupakan nilai yang akan diestimasi.
+
+
+Berikutnya lakukan split data, yaitu memisahkan data training dan data testing dengan memasukan perintah :
+```bash
+from sklearn.model_selection import train_test_split
+x_train, X_test, y_train, y_test = train_test_split(x,y,random_state=70)
+y_test.shape
+```
+
+Lalu masukan data training dan testing ke dalam model regresi linier dengan perintah :
+```bash
+from sklearn.linear_model import LinearRegression
+lr = LinearRegression()
+lr.fit(x_train,y_train)
+pred = lr.predict(X_test)
+```
+
+Untuk mengecek akurasinya masukan perintah :
+```bash
+score = lr.score(X_test, y_test)
+print('akurasi model regresi linear =', score)
+```
+```bash
+out : akurasi model regresi linear = 0.9909700768437055
+```
+
 Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyelesaikan permasalahan. Anda perlu menjelaskan tahapan dan parameter yang digunakan pada proses pemodelan.
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
