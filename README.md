@@ -115,9 +115,19 @@ dari dataset bodyfat.csv dengan memasukan perintah :
 df.head()
 ```
 
-Lalu menampilkan jumlah data dan kolom yang ada di dataset dengan perintah :
+Jika ingin menampilkan jumlah data dan kolom yang ada di dataset dengan perintah :
 ```bash
 df.shape
+```
+
+Lalu kita cek tipe data dari masing-masing atribut/fitur dari dataset dari bodyfat.csv
+```bash
+df.info()
+```
+
+Untuk menampilkan detail informasi dari dataset 
+```bash
+df.describe()
 ```
 
 
