@@ -5,7 +5,7 @@ bodyfat = pickle.load(open('estimasi_Lemak_Tubuh.sav', 'rb'))
 
 st.title('Perhitungan Lemak Tubuh')
 
-Density = st.number_input('Kepadatan Tubuh')
+Density = st.number_input('Kepadatan')
 Age = st.number_input('Usia')
 Weight = st.number_input('Berat Badan (Dalam pound)')
 Height = st.number_input('Tinggi Badan (Dalam INCH) ')
