@@ -145,6 +145,8 @@ sns.heatmap(df.corr(), annot=True)
 
 
 
+
+
 ## Modeling
 Untuk melakukan modeling saya memakai algoritma regresi linear, dimana kita harus memisahkan mana saja atribut yang akan dijadikan sebagai fitur(x) dan atribut mana yang dijadikan label(y).
 ```bash
@@ -179,8 +181,20 @@ print('akurasi model regresi linear =', score)
 ```bash
 out : akurasi model regresi linear = 0.9909700768437055
 ```
+Didapatkan nilai akurasi 99% , hal ini dipengaruhi oleh jumlah parameter yang digunakan. Jika parameternya dikurangi maka tingkat akurasinya terpengaruh.
 
-Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyelesaikan permasalahan. Anda perlu menjelaskan tahapan dan parameter yang digunakan pada proses pemodelan.
+
+Selanjutnya mencoba menggunakan model estimasi menggunakan regresi linier dengan memasukan perintah :
+```bash
+input_data = np.array([[1.0708 , 23 ,	154.25 ,	67.75 ,	36.2 ,	93.1 ,	85.2 ,	94.5 ,	59.0	, 37.3 ,	21.9 ,	32.0 ,	27.4 ,	17.1]])
+prediction = lr.predict(input_data)
+print('Perkiraan Lemak Tubuh Dalam Persen :', prediction)
+```
+```bash
+out : Perkiraan Lemak Tubuh Dalam Persen : [11.87458955]
+```
+
+Berdasarkan data yang telah diteliti, maka kita dapat mengetahui kadar lemak yang ada dalam tubuh kita.
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Menjelaskan kelebihan dan kekurangan dari setiap algoritma yang digunakan.
@@ -202,9 +216,5 @@ Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, probl
 ## Deployment
 pada bagian ini anda memberikan link project yang diupload melalui streamlit share. boleh ditambahkan screen shoot halaman webnya.
 
-**---Ini adalah bagian akhir laporan---**
-
-_Catatan:_
-- _Anda dapat menambahkan gambar, kode, atau tabel ke dalam laporan jika diperlukan. Temukan caranya pada contoh dokumen markdown di situs editor [Dillinger](https://dillinger.io/), [Github Guides: Mastering markdown](https://guides.github.com/features/mastering-markdown/), atau sumber lain di internet. Semangat!_
-- Jika terdapat penjelasan yang harus menyertakan code snippet, tuliskan dengan sewajarnya. Tidak perlu menuliskan keseluruhan kode project, cukup bagian yang ingin dijelaskan saja.
+![image](https://github.com/khildafitria/machinelearning/assets/149028314/ce9faa42-8b9e-4fda-aff6-97d2734cd341)
 
