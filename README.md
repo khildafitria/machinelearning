@@ -134,6 +134,8 @@ Jika ingin mengecek heatmap dari data kita ada yang kosong atau tidak, masukan p
 ```bash
 sns.heatmap(df.isnull())
 ```
+out :
+<img width="338" alt="Screenshot 2023-10-26 230013" src="https://github.com/khildafitria/machinelearning/assets/149028314/60ba8229-27ff-4895-a4f2-7f23b5730a3a">
 
 #Visualisasi Data
 visualisasi heatmap untuk melihat sebaran data pada dataset bodyfat.csv , masukan perintah :
@@ -141,10 +143,9 @@ visualisasi heatmap untuk melihat sebaran data pada dataset bodyfat.csv , masuka
 plt.figure(figsize=(10,8))
 sns.heatmap(df.corr(), annot=True)
 ```
-```bash
 out : 
-```
-<img width="338" alt="Screenshot 2023-10-26 230013" src="https://github.com/khildafitria/machinelearning/assets/149028314/60ba8229-27ff-4895-a4f2-7f23b5730a3a">
+<img width="430" alt="image" src="https://github.com/khildafitria/machinelearning/assets/149028314/9724d627-cf6d-4794-8826-93098ef3690f">
+
 
 
 
