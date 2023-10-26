@@ -49,16 +49,24 @@ Dataset yang digunakan adalah dataset yang diambil dari kaggle, dimana isi dari 
 
 [Body Fat Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset/data). 
 
-### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
-- Age : merupakan umur pasien dalam satuan tahun.
-- Sex : merupakan jenis kelamin pasien meliputi [M: Male, F: Female].
-- dst
-
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
+### Variabel-variabel pada Body Fat Prediction Dataset adalah sebagai berikut:
+- Density :
+- Age : merupakan umur dalam satuan tahun.
+- Weight : merupakan berat badan dalam satuan pon.
+- Height : merupakan tinggi badan dalam satuan inchi.
+- Neck : merupakan ukuran lingkar leher dalam satuan cm.
+- Chest : merupakan ukuran ukuran lingkar dada dalam satuan cm.
+- Abdomen : merupakan ukuran lingkar perut dalam satuan cm.
+- Hip : merupakan ukuran lingkar panggul dalam satuan cm.
+- Thigh : merupakan ukuran lingkar paha dalam satuan cm.
+- Knee : merupakan ukuran lingkar lutut dalam satuan cm.
+- Ankle : merupakan ukuran lingkar pergelangan kaki dalam satuan cm.
+- Biceps : merupakan ukuran lingkar tangan atas dalam satuan cm.
+- Forearm : merupakan ukuran lingkar tangan bawah dalam satuan cm.
+- Wrist : merupakan ukuran lingkar pergelangan tangan dalam satuan cm.
 
 ## Data Preparation
-Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
+Data berdasarkan kaggle
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Menjelaskan proses data preparation yang dilakukan
