@@ -141,6 +141,10 @@ visualisasi heatmap untuk melihat sebaran data pada dataset bodyfat.csv , masuka
 plt.figure(figsize=(10,8))
 sns.heatmap(df.corr(), annot=True)
 ```
+```bash
+out : <img width="338" alt="Screenshot 2023-10-26 230013" src="https://github.com/khildafitria/machinelearning/assets/149028314/60ba8229-27ff-4895-a4f2-7f23b5730a3a">
+```
+
 
 
 
