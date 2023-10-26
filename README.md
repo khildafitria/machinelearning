@@ -7,8 +7,7 @@
 Proyek yang saya angkat kali ini adalah perhitungan lemak tubuh yang diambil dari 14 parameter yang telah ditentukan, menurut peneliti Peningkatan lemak dalam tubuh manusia dapat berpengaruh dalam perubahan bentuk tubuh  manusia. Maka dari itu, saya selaku pembuat mencoba membuat pengukur kadar lemak sebagai tindakan agar anda dapat mengetahui jumlah lemak yang ada dalam tubuh.
 
 ## Business Understanding
-Proyek ini memudahkan kita untuk memonitor lemak tubuh, obesitas dan untuk rencana pengaturan diet dalam program pelayanan kesehatan menggunakan algoritma Regresi Linear.
-Bagian laporan ini mencakup:
+Proyek ini memudahkan kita untuk memonitor lemak tubuh, obesitas dan untuk rencana pengaturan diet dalam program pelayanan kesehatan menggunakan algoritma Regresi Linear. 
 
 ### Problem Statements
 Seseorang bisa saja terkena obesitas dari parameter sebagai berikut :
@@ -77,6 +76,45 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 ```
+
+Kemudian agar dataset di dalam kaggle langsung bisa terhubung ke kaggle maka harus membuat token terlebih dahulu di akun kaggle dengan memasukan perintah : 
+```bash
+from google.colab import files
+files.upload()
+```
+Setelah itu lalu masukan file token.
+
+Berikutnya yaitu membuat direktori dengan memasukan perintah :
+```bash
+!mkdir -p ~/.kaggle
+!cp kaggle.json ~/.kaggle
+!chmod 600 ~/.kaggle/kaggle.json
+!ls ~/.kaggle
+```
+
+Setelah itu kita panggil url dataset yang ada di website kaggle untuk didownload langsung ke google colab.
+```bash
+!kaggle datasets download -d fedesoriano/body-fat-prediction-dataset
+```
+
+Jika berhasil, selanjutnya kita ekstrak dataset yang sudah didownload dengan perintah :
+```bash
+!mkdir body-fat-prediction-dataset
+!unzip body-fat-prediction-dataset.zip -d body-fat-prediction-dataset
+!ls body-fat-prediction-dataset
+```
+
+Jika berhasil diekstrak, maka kita langsung dapat membuka dataset tersebut dengan perintah :
+```bash
+df = pd.read_csv('/content/body-fat-prediction-dataset/bodyfat.csv')
+```
+
+Lalu kita dapat melakukan beberapa exploratory daya analysis sederhana, mulai dari menampilkan isi
+dari dataset bodyfat.csv dengan memasukan perintah :
+```bash
+df.head()
+```
+
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Menjelaskan proses data preparation yang dilakukan
