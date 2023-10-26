@@ -4,23 +4,14 @@
 ### Kelas : Teknik Informatika Pagi B
 
 ## Domain Proyek
-Proyek yang saya angkat kali ini adalah perhitungan lemak tubuh yang diambil dari 14 parameter yang telah ditentukan
-
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
-- Menyertakan hasil riset terkait atau referensi. Referensi yang diberikan harus berasal dari sumber yang kredibel dan author yang jelas.
-  
-  Format Referensi: [Judul Referensi](https://scholar.google.com/) 
+Proyek yang saya angkat kali ini adalah perhitungan lemak tubuh yang diambil dari 14 parameter yang telah ditentukan, menurut peneliti Peningkatan lemak dalam tubuh manusia yang dapat berpengaruh dalam perubahan pengukuran pada beberapa bagian tubuh manusia. Maka dari itu, saya selaku pembuat berusaha mencoba memperhitungkan kadar lemak sebagai tindakan agar anda dapat mengetahui jumlah lemak yang ada dalam tubuh, juga mencegah terjadinya obesitas.
 
 ## Business Understanding
-
-Pada bagian ini, kamu perlu menjelaskan proses klarifikasi masalah.
-
+Proyek ini memudahkan kita untuk mengetahui kadar lemak yang ada pada tubuh juga upaya untuk mencegah terjadinya obesitas
 Bagian laporan ini mencakup:
 
 ### Problem Statements
-
-Menjelaskan pernyataan masalah latar belakang:
+Seseorang bisa saja terkena obesitas dari parameter sebagai berikut :
 - Kepadatan
 - Usia
 - Berat Badan
