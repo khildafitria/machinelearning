@@ -115,6 +115,11 @@ dari dataset bodyfat.csv dengan memasukan perintah :
 df.head()
 ```
 
+Lalu menampilkan jumlah data dan kolom yang ada di dataset dengan perintah :
+```bash
+df.shape
+```
+
 
 **Rubrik/Kriteria Tambahan (Opsional)**: 
 - Menjelaskan proses data preparation yang dilakukan
