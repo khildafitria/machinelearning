@@ -10,41 +10,18 @@ Proyek yang saya angkat kali ini adalah perhitungan lemak tubuh yang diambil dar
 Proyek ini memudahkan kita untuk memonitor lemak tubuh, obesitas dan untuk rencana pengaturan diet dalam program pelayanan kesehatan menggunakan algoritma Regresi Linear. 
 
 ### Problem Statements
-Seseorang bisa saja terkena obesitas dari parameter sebagai berikut :
-- Kepadatan
-- Usia
-- Berat Badan
-- Tinggi Badan
-- Ukuran Lingkar Leher
-- Ukuran Lingkar Dada
-- Ukuran Lingkar Perut
-- Ukuran Lingkar Panggul
-- Ukuran Lingkar Paha
-- Ukuran Lingkar Lutut
-- Ukuran Lingkar Pergelangan Kaki
-- Ukuran Lingkar Lengan Atas
-- Ukuran Lingkar Lengan Bawah
-- Ukuran Lingkar Pergelangan Tangan
-  
-Penelitian diatas mengharuskan anda untuk mengisi kebutuhan yang tercantum pada parameter diatas, dan hasilnya kemudian akan dikalkulasikan dalam bentuk persentase jumlah kadar lemak dalam tubuh kita.
+- Kelebihan lemak dapat menimbulkan obesitas yang merupakan faktor resiko dalam penyakit kardiovaskuler karena dapat menyebabkan hipertensi dan timbulnya diabetes.
+- Diet dapat mempengaruhi komposisi tubuh dalam jangka waktu singkat, seperti pada saat kekurangan air dan kelaparan ataupun dalam jangka waktu lama, seperti pada chronic overeating yang dapat meningkatkan simpanan lemak tubuh.
 
 ### Goals
-Untuk mengetahui kadar lemak dalam tubuh, sehingga bisa membantu memantau kondisi kesehatan.
-- Jawaban pernyataan masalah 1
-- Jawaban pernyataan masalah 2
-- Jawaban pernyataan masalah n
-
-Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
-
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Menambahkan bagian “Solution Statement” yang menguraikan cara untuk meraih goals. Bagian ini dibuat dengan ketentuan sebagai berikut: 
+- Untuk mengetahui kadar lemak dalam tubuh, sehingga bisa membantu memantau kondisi kesehatan.
 
     ### Solution statements
-    - Mengajukan 2 atau lebih solution statement. Misalnya, menggunakan dua atau lebih algoritma untuk mencapai solusi yang diinginkan atau melakukan improvement pada baseline model dengan hyperparameter tuning.
-    - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
+    - Dibuatkannya pengukur kadar lemak tubuh agar kita dapat mengkontrol makanan
+    - 
 
 ## Data Understanding
-Dataset yang digunakan adalah dataset yang diambil dari kaggle, dimana isi dari Body Fat Prediction Dataset ini yaitu hasil pengukuran lingkar tubuh 252 pria dan diteliti berdasarkan 14 atribut diatas.Dataset ini digunakan untuk menggambarkan teknik regresi berganda. Pengukuran lemak tubuh yang akurat tidaklah mudah dan diinginkan adanya metode yang mudah untuk memperkirakan lemak tubuh yang tidak merepotkan atau mahal.
+Dataset yang digunakan adalah dataset yang diambil dari kaggle, dimana isi dari Body Fat Prediction Dataset ini yaitu hasil pengukuran lingkar tubuh 252 pria dan diteliti berdasarkan 14 atribut diatas. Dataset ini digunakan untuk menggambarkan teknik regresi. Pengukuran lemak tubuh yang akurat tidaklah mudah dan diinginkan adanya metode yang mudah untuk memperkirakan lemak tubuh yang tidak merepotkan atau mahal.
 
 [Body Fat Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset/data). 
 
@@ -150,13 +127,6 @@ out :
 ```
 <img width="430" alt="image" src="https://github.com/khildafitria/machinelearning/assets/149028314/9724d627-cf6d-4794-8826-93098ef3690f">
 
-
-
-
-
-
-
-
 ## Modeling
 Untuk melakukan modeling saya memakai algoritma regresi linear, dimana kita harus memisahkan mana saja atribut yang akan dijadikan sebagai fitur(x) dan atribut mana yang dijadikan label(y).
 ```bash
@@ -219,7 +189,7 @@ Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, probl
 - Menjelaskan formula metrik dan bagaimana metrik tersebut bekerja.
 
 ## Deployment
-pada bagian ini anda memberikan link project yang diupload melalui streamlit share. boleh ditambahkan screen shoot halaman webnya.
+[Perhitungan Lemak Tubuh](https://machinelearning-khilda.streamlit.app/). 
 
 ![image](https://github.com/khildafitria/machinelearning/assets/149028314/ce9faa42-8b9e-4fda-aff6-97d2734cd341)
 
