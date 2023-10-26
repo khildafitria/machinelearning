@@ -4,10 +4,10 @@
 ### Kelas : Teknik Informatika Pagi B
 
 ## Domain Proyek
-Proyek yang saya angkat kali ini adalah perhitungan lemak tubuh yang diambil dari 14 parameter yang telah ditentukan, menurut peneliti Peningkatan lemak dalam tubuh manusia dapat berpengaruh dalam perubahan bentuk tubuh  manusia. Maka dari itu, saya selaku pembuat mencoba membuat pengukur kadar lemak sebagai tindakan agar anda dapat mengetahui jumlah lemak yang ada dalam tubuh, juga mencegah terjadinya obesitas.
+Proyek yang saya angkat kali ini adalah perhitungan lemak tubuh yang diambil dari 14 parameter yang telah ditentukan, menurut peneliti Peningkatan lemak dalam tubuh manusia dapat berpengaruh dalam perubahan bentuk tubuh  manusia. Maka dari itu, saya selaku pembuat mencoba membuat pengukur kadar lemak sebagai tindakan agar anda dapat mengetahui jumlah lemak yang ada dalam tubuh.
 
 ## Business Understanding
-Proyek ini memudahkan kita untuk mengetahui kadar lemak yang ada pada tubuh juga upaya untuk mencegah terjadinya obesitas menggunakan algoritma Regresi Linear.
+Proyek ini memudahkan kita untuk memonitor lemak tubuh, obesitas dan untuk rencana pengaturan diet dalam program pelayanan kesehatan menggunakan algoritma Regresi Linear.
 Bagian laporan ini mencakup:
 
 ### Problem Statements
@@ -27,11 +27,10 @@ Seseorang bisa saja terkena obesitas dari parameter sebagai berikut :
 - Ukuran Lingkar Lengan Bawah
 - Ukuran Lingkar Pergelangan Tangan
   
-Penelitian diatas mengharuskan anda untuk mengisi kebutuhan yang tercantum pada parameter diatas, dan hasilnya kemudian akan dikalkulasikan dalam bentuk persen jumlah kadar lemak dalam tubuh kita.
+Penelitian diatas mengharuskan anda untuk mengisi kebutuhan yang tercantum pada parameter diatas, dan hasilnya kemudian akan dikalkulasikan dalam bentuk persentase jumlah kadar lemak dalam tubuh kita.
 
 ### Goals
-
-Menjelaskan tujuan dari pernyataan masalah:
+Untuk mengetahui kadar lemak dalam tubuh, sehingga bisa membantu memantau kondisi kesehatan.
 - Jawaban pernyataan masalah 1
 - Jawaban pernyataan masalah 2
 - Jawaban pernyataan masalah n
@@ -46,11 +45,9 @@ Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pe
     - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
 
 ## Data Understanding
-Proyek yang saya buat ini datanya diambil dari dataset kaggle
+Dataset yang digunakan adalah dataset yang diambil dari kaggle, dimana isi dari Body Fat Prediction Dataset ini yaitu hasil pengukuran lingkar tubuh 252 pria dan diteliti berdasarkan 14 atribut diatas.Dataset ini digunakan untuk menggambarkan teknik regresi berganda. Pengukuran lemak tubuh yang akurat tidaklah mudah dan diinginkan adanya metode yang mudah untuk memperkirakan lemak tubuh yang tidak merepotkan atau mahal.
 
-Contoh: [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction).
-
-Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
+[Body Fat Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset/data). 
 
 ### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
 - Age : merupakan umur pasien dalam satuan tahun.
