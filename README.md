@@ -4,10 +4,10 @@
 ### Kelas : Teknik Informatika Pagi B
 
 ## Domain Proyek
-Proyek yang saya angkat kali ini adalah perhitungan lemak tubuh yang diambil dari 14 parameter yang telah ditentukan, menurut peneliti Peningkatan lemak dalam tubuh manusia yang dapat berpengaruh dalam perubahan pengukuran pada beberapa bagian tubuh manusia. Maka dari itu, saya selaku pembuat berusaha mencoba memperhitungkan kadar lemak sebagai tindakan agar anda dapat mengetahui jumlah lemak yang ada dalam tubuh, juga mencegah terjadinya obesitas.
+Proyek yang saya angkat kali ini adalah perhitungan lemak tubuh yang diambil dari 14 parameter yang telah ditentukan, menurut peneliti Peningkatan lemak dalam tubuh manusia dapat berpengaruh dalam perubahan bentuk tubuh  manusia. Maka dari itu, saya selaku pembuat mencoba membuat pengukur kadar lemak sebagai tindakan agar anda dapat mengetahui jumlah lemak yang ada dalam tubuh, juga mencegah terjadinya obesitas.
 
 ## Business Understanding
-Proyek ini memudahkan kita untuk mengetahui kadar lemak yang ada pada tubuh juga upaya untuk mencegah terjadinya obesitas
+Proyek ini memudahkan kita untuk mengetahui kadar lemak yang ada pada tubuh juga upaya untuk mencegah terjadinya obesitas menggunakan algoritma Regresi Linear.
 Bagian laporan ini mencakup:
 
 ### Problem Statements
@@ -26,6 +26,8 @@ Seseorang bisa saja terkena obesitas dari parameter sebagai berikut :
 - Ukuran Lingkar Lengan Atas
 - Ukuran Lingkar Lengan Bawah
 - Ukuran Lingkar Pergelangan Tangan
+  
+Penelitian diatas mengharuskan anda untuk mengisi kebutuhan yang tercantum pada parameter diatas, dan hasilnya kemudian akan dikalkulasikan dalam bentuk persen jumlah kadar lemak dalam tubuh kita.
 
 ### Goals
 
