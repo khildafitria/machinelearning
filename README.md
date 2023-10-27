@@ -4,24 +4,23 @@
 ### Kelas : Teknik Informatika Pagi B
 
 ## Domain Proyek
-Proyek yang saya angkat kali ini adalah perhitungan lemak tubuh yang diambil dari 14 parameter yang telah ditentukan, menurut peneliti Peningkatan lemak dalam tubuh manusia dapat berpengaruh dalam perubahan bentuk tubuh  manusia. Maka dari itu, saya selaku pembuat mencoba membuat pengukur kadar lemak sebagai tindakan agar anda dapat mengetahui jumlah lemak yang ada dalam tubuh.
+Proyek yang saya angkat adalah perhitungan lemak tubuh yang diambil dari 14 parameter yang telah ditentukan. Menurut peneliti, Peningkatan lemak dalam tubuh dapat berpengaruh dalam perubahan bentuk tubuh manusia. Maka dari itu, saya selaku pembuat mencoba membuat pengukur kadar lemak sebagai tindakan agar anda dapat mengetahui jumlah lemak yang ada dalam tubuh dan mencegah terjadinya obesitas.
 
 ## Business Understanding
-Proyek ini memudahkan kita untuk memonitor lemak tubuh, obesitas dan untuk rencana pengaturan diet dalam program pelayanan kesehatan menggunakan algoritma Regresi Linear. 
+Proyek ini memudahkan serta menghemat waktu kita dalam pengukuran lemak tubuh yang akurat, agar kita dapat mengetahui kadar jumlah lemak yang ada pada tubuh kita tanpa harus pergi ke rumahsakit terlebih dulu.
 
+Bagian laporan ini mencakup :
 ### Problem Statements
-- Kelebihan lemak dapat menimbulkan obesitas yang merupakan faktor resiko dalam penyakit kardiovaskuler karena dapat menyebabkan hipertensi dan timbulnya diabetes.
-- Diet dapat mempengaruhi komposisi tubuh dalam jangka waktu singkat, seperti pada saat kekurangan air dan kelaparan ataupun dalam jangka waktu lama, seperti pada chronic overeating yang dapat meningkatkan simpanan lemak tubuh.
+- Ketidaktahuan seseorang terhadap jumlah lemak yang ada dalam tubuhnya.
 
 ### Goals
 - Untuk mengetahui kadar lemak dalam tubuh, sehingga bisa membantu memantau kondisi kesehatan.
 
     ### Solution statements
-    - Dibuatkannya pengukur kadar lemak tubuh agar kita dapat mengkontrol makanan
-    - 
+    - Dikembangkannya perhitungan lemak tubuh berbasis web agar dapat mengetahui dengan mudah jumlah lemak yang ada dalam tubuh kita dengan parameter yang telah ditentukan dan dihitung menggunakan algoritma Regresi Linear.
 
 ## Data Understanding
-Dataset yang digunakan adalah dataset yang diambil dari kaggle, dimana isi dari Body Fat Prediction Dataset ini yaitu hasil pengukuran lingkar tubuh 252 pria dan diteliti berdasarkan 14 atribut diatas. Dataset ini digunakan untuk menggambarkan teknik regresi. Pengukuran lemak tubuh yang akurat tidaklah mudah dan diinginkan adanya metode yang mudah untuk memperkirakan lemak tubuh yang tidak merepotkan atau mahal.
+Dataset yang digunakan adalah dataset yang diambil dari kaggle, dimana isi dari Body Fat Prediction Dataset ini yaitu hasil pengukuran lingkar tubuh 252 pria dan diteliti berdasarkan 14 atribut diatas.
 
 [Body Fat Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset/data). 
 
@@ -184,14 +183,9 @@ score = r2_score(y_test, pred)
 
 print(f"precision = {score}")
 ```
-- Saya memilih kasus klasifikasi dan menggunakan metrik **precision**. Karena dalam mendeteksi lemak tubuh, kesalahan dalam mendeteksi lemak yang sebenarnya tidak ada dapat menyebabkan kecemasan yang tidak perlu atau biaya tambahan untuk tes lebih lanjut. Presisi membantu dalam mengukur sejauh mana model ini dapat menghindari kesalahan.
-- 
-
-Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
-
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan formula metrik dan bagaimana metrik tersebut bekerja.
-
+- Saya memilih menggunakan metrik **precision**. Karena dalam mendeteksi lemak tubuh, kesalahan dalam mendeteksi yang sebenarnya tidak ada menyebabkan kecemasan yang tidak perlu atau biaya tambahan untuk tes lebih lanjut.
+- Dengan menggunakan presisi membantu dalam mengukur sejauh mana model ini dapat menghindari kesalahan.
+  
 ## Deployment
 [Perhitungan Lemak Tubuh](https://machinelearning-khilda.streamlit.app/). 
 
