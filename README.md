@@ -20,25 +20,26 @@ Bagian laporan ini mencakup :
   - Dikembangkannya perhitungan lemak tubuh berbasis web agar dapat mengetahui dengan mudah jumlah lemak yang ada dalam tubuh kita dengan parameter yang telah ditentukan dan dihitung menggunakan algoritma Regresi Linear.
 
 ## Data Understanding
-Dataset yang digunakan adalah dataset yang diambil dari kaggle, dimana isi dari Body Fat Prediction Dataset ini yaitu hasil pengukuran lingkar tubuh 252 pria dan diteliti berdasarkan 14 atribut diatas.
+Dataset yang digunakan adalah dataset yang diambil dari kaggle, dimana isi dari Body Fat Prediction Dataset ini yaitu hasil perkiraan persentase lemak tubuh yang ditentukan di bawah air dengan pengukuran lingkar tubuh 252 pria dan diteliti berdasarkan 14 atribut diatas.
 
 [Body Fat Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset/data). 
 
 ### Variabel-variabel pada Body Fat Prediction Dataset adalah sebagai berikut:
-- Density : merupakan kepadatan tubuh dalam penimbangan dibawah air.
-- Age : merupakan umur dalam satuan tahun.
-- Weight : merupakan berat badan dalam satuan pon.
-- Height : merupakan tinggi badan dalam satuan inchi.
-- Neck : merupakan ukuran lingkar leher dalam satuan cm.
-- Chest : merupakan ukuran ukuran lingkar dada dalam satuan cm.
-- Abdomen : merupakan ukuran lingkar perut dalam satuan cm.
-- Hip : merupakan ukuran lingkar panggul dalam satuan cm.
-- Thigh : merupakan ukuran lingkar paha dalam satuan cm.
-- Knee : merupakan ukuran lingkar lutut dalam satuan cm.
-- Ankle : merupakan ukuran lingkar pergelangan kaki dalam satuan cm.
-- Biceps : merupakan ukuran lingkar tangan atas dalam satuan cm.
-- Forearm : merupakan ukuran lingkar tangan bawah dalam satuan cm.
-- Wrist : merupakan ukuran lingkar pergelangan tangan dalam satuan cm.
+- Density : merupakan kepadatan tubuh dalam penimbangan dibawah air.(Float)
+- BodyFat : merupakan lemak tubuh dalam persen.(Float)
+- Age : merupakan umur dalam satuan tahun.(int)
+- Weight : merupakan berat badan dalam satuan pon.(Float)
+- Height : merupakan tinggi badan dalam satuan inchi.(Float)
+- Neck : merupakan ukuran lingkar leher dalam satuan cm.(Float)
+- Chest : merupakan ukuran ukuran lingkar dada dalam satuan cm.(Float)
+- Abdomen : merupakan ukuran lingkar perut dalam satuan cm.(Float)
+- Hip : merupakan ukuran lingkar panggul dalam satuan cm.(Float)
+- Thigh : merupakan ukuran lingkar paha dalam satuan cm.(Float)
+- Knee : merupakan ukuran lingkar lutut dalam satuan cm.(Float)
+- Ankle : merupakan ukuran lingkar pergelangan kaki dalam satuan cm.(Float)
+- Biceps : merupakan ukuran lingkar tangan atas dalam satuan cm.(Float)
+- Forearm : merupakan ukuran lingkar tangan bawah dalam satuan cm.(Float)
+- Wrist : merupakan ukuran lingkar pergelangan tangan dalam satuan cm.(Float)
 
 ## Data Preparation
 Data berdasarkan kaggle
