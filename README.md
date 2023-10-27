@@ -7,7 +7,7 @@
 Proyek yang saya angkat adalah perhitungan lemak tubuh yang diambil dari 14 parameter yang telah ditentukan. Menurut peneliti, Peningkatan lemak dalam tubuh dapat berpengaruh dalam perubahan bentuk tubuh manusia. Maka dari itu, saya selaku pembuat mencoba membuat pengukur kadar lemak sebagai tindakan agar anda dapat mengetahui jumlah lemak yang ada dalam tubuh dan mencegah terjadinya obesitas.
 
 ## Business Understanding
-Proyek ini memudahkan serta menghemat waktu kita dalam pengukuran lemak tubuh yang akurat, agar kita dapat mengetahui kadar jumlah lemak yang ada pada tubuh kita tanpa harus pergi ke rumahsakit terlebih dulu.
+Proyek ini memudahkan serta menghemat waktu kita dalam pengukuran lemak tubuh yang akurat, agar kita dapat mengetahui kadar jumlah lemak yang ada pada tubuh kita tanpa harus pergi ke rumahsakit atau membeli alatnya terlebih dulu.
 
 Bagian laporan ini mencakup :
 ### Problem Statements
