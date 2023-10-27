@@ -194,5 +194,6 @@ Hasil dari metrik evaluasinya 99% sama dengan hasil akurasi yang sebelumnya dila
 ## Deployment
 [Perhitungan Lemak Tubuh](https://machinelearning-khilda.streamlit.app/). 
 
-![image](https://github.com/khildafitria/machinelearning/assets/149028314/ce9faa42-8b9e-4fda-aff6-97d2734cd341)
+![image](https://github.com/khildafitria/machinelearning/assets/149028314/ccb44c6a-6415-45fe-af51-dd1c91f0dcea)
+
 
