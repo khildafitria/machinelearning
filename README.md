@@ -177,11 +177,15 @@ out : Perkiraan Lemak Tubuh Dalam Persen : [11.87458955]
 Berdasarkan data yang telah diteliti, maka kita dapat mengetahui kadar lemak yang ada dalam tubuh kita.
 
 ## Evaluation
-Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
+Metrik evaluasi yang digunakan yaitu precision dengan memasukan perintah :
+```bash
+from sklearn.metrics import r2_score
+score = r2_score(y_test, pred)
 
-Sebagai contoh, Anda memiih kasus klasifikasi dan menggunakan metrik **akurasi, precision, recall, dan F1 score**. Jelaskan mengenai beberapa hal berikut:
-- Penjelasan mengenai metrik yang digunakan
-- Menjelaskan hasil proyek berdasarkan metrik evaluasi
+print(f"precision = {score}")
+```
+- Saya memilih kasus klasifikasi dan menggunakan metrik **precision**. Karena dalam mendeteksi lemak tubuh, kesalahan dalam mendeteksi lemak yang sebenarnya tidak ada dapat menyebabkan kecemasan yang tidak perlu atau biaya tambahan untuk tes lebih lanjut. Presisi membantu dalam mengukur sejauh mana model ini dapat menghindari kesalahan.
+- 
 
 Ingatlah, metrik evaluasi yang digunakan harus sesuai dengan konteks data, problem statement, dan solusi yang diinginkan.
 
