@@ -184,6 +184,10 @@ score = r2_score(y_test, pred)
 
 print(f"precision = {score}")
 ```
+``bash
+out : precision = 0.9909700768437055
+```
+Hasil dari metrik evaluasinya 99% sama dengan hasil akurasi yang sebelumnya dilakukan. Berarti model ini memiliki keseimbangan yang baik dari segi presisinya. 
 - Saya memilih menggunakan metrik **precision**. Karena dalam mendeteksi lemak tubuh, kesalahan dalam mendeteksi yang sebenarnya tidak ada menyebabkan kecemasan yang tidak perlu atau biaya tambahan untuk tes lebih lanjut.
 - Dengan menggunakan presisi membantu dalam mengukur sejauh mana model ini dapat menghindari kesalahan.
   
