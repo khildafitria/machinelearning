@@ -17,7 +17,7 @@ Bagian laporan ini mencakup :
 - Untuk mengetahui kadar lemak dalam tubuh, sehingga bisa membantu memantau kondisi kesehatan.
 
     ### Solution statements
-    - Dikembangkannya perhitungan lemak tubuh berbasis web agar dapat mengetahui dengan mudah jumlah lemak yang ada dalam tubuh kita dengan parameter yang telah ditentukan dan dihitung menggunakan algoritma Regresi Linear.
+  - Dikembangkannya perhitungan lemak tubuh berbasis web agar dapat mengetahui dengan mudah jumlah lemak yang ada dalam tubuh kita dengan parameter yang telah ditentukan dan dihitung menggunakan algoritma Regresi Linear.
 
 ## Data Understanding
 Dataset yang digunakan adalah dataset yang diambil dari kaggle, dimana isi dari Body Fat Prediction Dataset ini yaitu hasil pengukuran lingkar tubuh 252 pria dan diteliti berdasarkan 14 atribut diatas.
