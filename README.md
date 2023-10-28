@@ -107,6 +107,7 @@ Untuk menampilkan detail informasi dari dataset, masukan perintah :
 df.describe()
 ```
 
+## Visualisasi Data
 Jika ingin mengecek heatmap dari data kita ada yang kosong atau tidak, masukan perintah :
 ```bash
 sns.heatmap(df.isnull())
@@ -116,7 +117,6 @@ out :
 ```
 <img width="338" alt="Screenshot 2023-10-26 230013" src="https://github.com/khildafitria/machinelearning/assets/149028314/60ba8229-27ff-4895-a4f2-7f23b5730a3a">
 
-## Visualisasi Data
 Menggunakan heatmap untuk melihat sebaran data pada dataset bodyfat.csv , masukan perintah :
 ```bash
 plt.figure(figsize=(10,8))
