@@ -54,7 +54,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 ```
 
-Kemudian agar dataset di dalam kaggle langsung bisa terhubung ke kaggle maka harus membuat token terlebih dahulu di akun kaggle dengan memasukan perintah : 
+Kemudian agar dataset di dalam kaggle langsung bisa terhubung ke collab maka harus membuat token terlebih dahulu di akun kaggle dengan memasukan perintah : 
 ```bash
 from google.colab import files
 files.upload()
@@ -126,6 +126,35 @@ sns.heatmap(df.corr(), annot=True)
 out :
 ```
 <img width="430" alt="image" src="https://github.com/khildafitria/machinelearning/assets/149028314/9724d627-cf6d-4794-8826-93098ef3690f">
+
+
+Menampilkan informasi umur berdasarkan berat maka masukan perintah :
+```bash
+models=df.groupby('Age').count()[['Weight']].sort_values(by='Age', ascending=True).reset_index()
+models=models.rename(columns={'Age':'Height'})
+```
+```bash
+fig=plt.figure(figsize=(15,5))
+sns.barplot(x=models['Height'], y=models['Weight'], color='orange')
+plt.xticks(rotation=60)
+```
+```bash
+out :
+```
+![image](https://github.com/khildafitria/machinelearning/assets/149028314/9e355699-5971-4123-ab4e-2eede09cdd5e)
+
+
+Menampilkan distribusi dari fitur lemak tubuh, masukan perintah :
+```bash
+plt.figure(figsize=(15,5))
+sns.histplot(df['BodyFat'])
+```
+```bash
+out :
+```
+![image](https://github.com/khildafitria/machinelearning/assets/149028314/bec186f1-c2b2-4dda-ad66-1979503ba7cb)
+
+
 
 ## Modeling
 Untuk melakukan modeling saya memakai algoritma regresi linear, dimana kita harus memisahkan mana saja atribut yang akan dijadikan sebagai fitur(x) dan atribut mana yang dijadikan label(y).
